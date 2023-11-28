@@ -8,7 +8,7 @@ from PyQt6.QtWidgets import QMessageBox, QFileDialog
 from Script1 import run1
 from Script2 import run2
 from Script3 import run3
-from Script5 import Iterator1_txt
+from Script5 import Iterator1txt
 
 class Ui_MainWindow(QWidget):
     """this class implements the execution of all tasks and the transition to a new window"""
@@ -128,7 +128,7 @@ class ClssDialog(QtWidgets.QDialog):
     def __init__(self, parent=None):
         super(ClssDialog, self).__init__(parent)
         #C:\Users\Professional\Desktop\SSAU\PP\APlabs\APlab3
-        self.__iterator = Iterator1_txt(os.path.join("/Users", "Professional", "Desktop", "SSAU", "PP", "APlabs", "APlab3"), "1", "dataset")
+        self.__iterator = Iterator1txt(os.path.join("/Users", "Professional", "Desktop", "SSAU", "PP", "APlabs", "APlab3"), "1", "dataset")
         self.resize(640, 650)
         self.verticalLayout = QtWidgets.QVBoxLayout(self)
 

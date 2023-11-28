@@ -1,6 +1,6 @@
 import os
 
-class Iterator1_txt:
+class Iterator1txt:
     def __init__(self, dataset: str, name: str, path: str):
         self.path = ""
         self.name = ""
